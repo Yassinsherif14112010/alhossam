@@ -1,5 +1,4 @@
 {
-  "$comment": "Environment variables (Supabase URL/keys, Google client ID, etc.) are NOT stored here for security. Set them in Vercel Project Settings -> Environment Variables after import.",
   "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
