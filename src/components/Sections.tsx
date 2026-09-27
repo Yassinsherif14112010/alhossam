@@ -67,12 +67,7 @@ export function Intro() {
             <div className="relative">
               <div className="absolute -inset-4 rounded-sm border border-muted-gold/30" aria-hidden />
               <div className="relative overflow-hidden rounded-sm">
-                <img src="/images/conference.jpg" alt={isAr ? 'مكتب الحسام للمحاماة' : 'Al-Hossam Law Firm office'} className="aspect-[4/5] w-full object-cover transition-transform duration-[2s] hover:scale-105" loading="lazy" />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink/55 via-transparent to-transparent" />
-                <div className="absolute bottom-0 inset-x-0 flex items-center gap-3 p-6">
-                  <ShieldCheck size={22} className="shrink-0 text-champagne" />
-                  <p className="font-display text-lg text-ivory italic" lang="ar">الحسام للمحاماة والاستشارات القانونية</p>
-                </div>
+                <img src="/images/legal-services-ad.png" alt={isAr ? 'خدمات الحسام للمحاماة القانونية' : 'Al-Hossam Law Firm legal services'} className="aspect-square w-full object-cover transition-transform duration-[2s] hover:scale-105" loading="lazy" />
               </div>
               <div className="absolute -bottom-8 -start-6 hidden bg-ink px-7 py-5 shadow-2xl sm:block" aria-hidden>
                 <div className="font-display text-4xl text-gold" dir="ltr">15+</div>
