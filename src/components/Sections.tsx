@@ -82,7 +82,7 @@ export function Intro() {
 }
 
 export function About() {
-  const { t } = useLang();
+  const { t, isAr } = useLang();
   return (
     <section id="about" className="scroll-mt-20 bg-parchment py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
@@ -95,7 +95,7 @@ export function About() {
               </Reveal>
               <Reveal delay={0.3}>
                 <div className="mt-10 overflow-hidden rounded-sm">
-                  <img src="/images/library.jpg" alt="" className="aspect-[3/4] w-full object-cover transition-transform duration-[2s] hover:scale-105" loading="lazy" />
+                  <img src="/images/legal-services-ad.png" alt={isAr ? 'خدمات الحسام للمحاماة القانونية' : 'Al-Hossam Law Firm legal services'} className="aspect-square w-full object-cover transition-transform duration-[2s] hover:scale-105" loading="lazy" />
                 </div>
               </Reveal>
             </div>
